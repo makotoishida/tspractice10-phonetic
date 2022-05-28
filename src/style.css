@@ -55,7 +55,7 @@ footer a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0.8rem;
-  margin: 2rem auto;
+  margin: 1rem auto 2rem;
 }
 
 .category {
@@ -80,4 +80,12 @@ footer a {
   grid-template-columns: repeat(5, 1fr);
   row-gap: 1rem;
   margin: 2rem auto;
+}
+
+.word {
+  padding: 0.2rem;
+  text-align: center;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 0.4rem;
 }

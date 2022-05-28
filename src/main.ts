@@ -28,7 +28,7 @@ const handleCategoryClick = (ev: MouseEvent) => {
 }
 
 const Categories = (activeCategory: string) => {
-  return html`<div>Categories</div>
+  return html`<h4>Categories</h4>
     <div class="categories">
       ${Object.keys(words).map(
         (i) =>
